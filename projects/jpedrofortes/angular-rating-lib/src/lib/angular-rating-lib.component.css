@@ -1,0 +1,40 @@
+
+.div-svg{
+    display: flex;
+    flex: auto;
+    flex-wrap: wrap;
+}
+
+svg {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+.w-100{
+    width: 100%;
+}
+.inherit{
+    height: inherit;
+    width: inherit;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.counter-group {
+    flex-wrap: nowrap;
+}
+
+input[type="checkbox"][id^="icounter"] {
+    display: none;
+}
+
+svg.actived > path {
+    fill: yellow;
+    stroke: yellow
+}

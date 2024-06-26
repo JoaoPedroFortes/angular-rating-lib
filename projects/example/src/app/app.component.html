@@ -1,0 +1,64 @@
+<div class="d-flex ">
+  <div class="w-100">
+    <h1> Columns example</h1>
+    <div class="d-flex w-100">
+      <app-rating [value]="star.classification" class="w-25">
+        <ng-container label>
+          15%
+        </ng-container>
+      </app-rating>
+
+      <app-rating type="heart" class="w-25" [length]="5" >
+        <ng-container label>
+          25%
+        </ng-container>
+      </app-rating>
+
+
+      <app-rating [value]="star.classification" class="w-50">
+        <ng-container label>
+          50%
+        </ng-container>
+      </app-rating>
+
+    
+      <app-rating type="heart" class="w-100" [length]="5" >
+        <ng-container label>
+          100%
+        </ng-container>
+      </app-rating>
+
+      <app-rating type="heart" class="w-100" [length]="10" >
+        <ng-container label>
+          100%
+        </ng-container>
+      </app-rating>
+    </div>
+  </div>
+
+  <div class="w-50">
+    <h1>
+      Simple example
+    </h1>
+
+    <app-rating [value]="star.classification">
+      <ng-container label>
+        Star Example:
+      </ng-container>
+    </app-rating>
+
+    <app-rating type="heart" [length]="10" [value]="heart.classification" (valueChange)="changeClassification($event)">
+      <ng-container label>
+        Heart Example:
+      </ng-container>
+    </app-rating>
+
+    <app-rating type="heart" [hexColor]="'#FF1493'">
+      <ng-container label>
+        Pink Heart Example :
+      </ng-container>
+    </app-rating>
+
+
+  </div>
+</div>

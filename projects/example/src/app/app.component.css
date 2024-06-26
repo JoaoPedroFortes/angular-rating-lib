@@ -1,0 +1,23 @@
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+.w-15{
+    width: 15%;
+}
+
+.w-25{
+    width: 25%;
+}
+.bg-pink{
+    background-color: aliceblue;
+    
+}
