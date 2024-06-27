@@ -6,6 +6,9 @@ Angular 18 lib for rating component
 npm install @joaopedrofortes/angular-rating
 ```
 
+## Demo
+<img src="./rating.gif">
+
 ## Usage
 ```javascript
 import { AngularRatingLibComponent } from '@joaopedrofortes/angular-rating';
