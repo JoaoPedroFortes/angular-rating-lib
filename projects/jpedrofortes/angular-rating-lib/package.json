@@ -1,6 +1,6 @@
 {
-  "name": "@jpedrofortes/angular-rating-lib",
-  "version": "0.0.1",
+  "name": "@joaopedrofortes/angular-rating",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^18.0.0",
     "@angular/core": "^18.0.0"
@@ -8,5 +8,16 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "João Pedro Fortes",
+      "url": "https://www.linkedin.com/in/joao-pedro-fortes/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoaoPedroFortes/angular-rating-lib"
+  }
 }
