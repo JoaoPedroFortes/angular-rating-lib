@@ -1,6 +1,6 @@
 {
   "name": "@joaopedrofortes/angular-rating",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "peerDependencies": {
     "@angular/common": "^18.0.0",
     "@angular/core": "^18.0.0"
@@ -19,5 +19,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/JoaoPedroFortes/angular-rating-lib"
-  }
+  },
+  "keywords": ["angular", "angular-rating", "heart rating", "star rating"]
 }
